@@ -8,6 +8,7 @@
         <title>SailsCenter</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/t/bs/jqc-1.12.0,pdfmake-0.1.18,dt-1.10.11,af-2.1.1,b-1.1.2,b-html5-1.1.2,b-print-1.1.2,fh-3.1.1/datatables.min.css"/>
     </head>
 
     <body>
@@ -76,80 +77,215 @@
                 <h2>Vindo 90 ketch<button class="btn btn-default pull-right">Edit project</button></h2>
                           <p><b>&emsp;Status:&emsp;<span class="label label-warning">Production</span></b></p>
                <div class="col-md-4">
-                   <p><b>Client</b>: Boding</p>
-                    <p>Order: 150013-3</p>
-                   <p>Customer: 8935 Fischer</p>
+                   <p><b>Client:</b> Boding</p>
+                    <p><b>Order:</b> 150013-3</p>
+                   <p><b>Customer:</b> 8935 Fischer</p>
                 </div>
                 <div class="col-md-4">
-                    <p>Boat type: Vindo 90 Ketch</p>
-                    <p>Sail type: Furling genoa</p>
-                    <p>Cloth: Dacron 350</p>
+                    <p><b>Boat type:</b> Vindo 90 Ketch</p>
+                    <p><b>Sail type:</b> Furling genoa</p>
+                    <p><b>Cloth:</b> Dacron 350</p>
+                </div>
+                <div class="col-md-4">
+                    <p><b>Corner patches:&emsp;</b><span class="label label-info">Production</span></p>
+                    <p><b>UV cover:&emsp;</b><span class="label label-info">Production</span></p>
+                    <p><b>Insignia:&emsp;</b><span class="label label-success">Done</span></p>
                 </div>
             </div>
             
             <div class="col-md-offset-1 col-md-3 box">
                 <h4>Project files<button class="btn btn-default pull-right">Upload file</button></h4>
-                <p class=""><span class="glyphicon glyphicon-file"></span>&emsp;<ins>150013-3 Vindo 90 Ketch</ins></p>
+                <p><span class="glyphicon glyphicon-file"></span>&emsp;<ins>150013-3 Vindo 90 Ketch</ins></p>
+                <p><span class="glyphicon glyphicon-file"></span>&emsp;<ins>Insignia Vindo 90 Ketch</ins></p>
+                <p><span class="glyphicon glyphicon-file"></span>&emsp;<ins>Class rules Vindo 90</ins></p>
             </div>
             <div class="row">
-            <div class="col-md-12 project-details">
+            <div class="col-md-8 project-details">
                 
 
-			<div class="tabbable-panel">
+			<div class="tabbable-panel box-pills">
 				<div class="tabbable-line">
 					<ul class="nav nav-tabs ">
 						<li class="active">
 							<a href="#tab_default_1" data-toggle="tab">
-							Tab 1 </a>
+							Notes </a>
 						</li>
 						<li>
 							<a href="#tab_default_2" data-toggle="tab">
-							Tab 2 </a>
+							Log</a>
 						</li>
 						<li>
 							<a href="#tab_default_3" data-toggle="tab">
-							Tab 3 </a>
+							Similar </a>
 						</li>
 					</ul>
 					<div class="tab-content">
 						<div class="tab-pane active" id="tab_default_1">
-							<p>
-								I'm in Tab 1.
-							</p>
-							<p>
-								Duis autem eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
-							</p>
-							<p>
-								<a class="btn btn-success" href="http://j.mp/metronictheme" target="_blank">
-									Learn more...
-								</a>
-							</p>
+			
+            <div class="panel panel-white post">
+                <div class="post-heading">
+                    <div class="pull-left image">
+                        <img src="http://bootdey.com/img/Content/user_1.jpg" class="img-circle avatar" alt="user profile image">
+                    </div>
+                    <div class="pull-left meta">
+                        <div class="title h5">
+                            <a href="#"><b>Ryan Haywood</b></a>
+                            made a post.
+                        </div>
+                        <h6 class="text-muted time">1 minute ago</h6>
+                    </div>
+                </div> 
+                <div class="post-description"> 
+                    <p>Bootdey is a gallery of free snippets resources templates and utilities for bootstrap css hmtl js framework. Codes for developers and web designers</p>
+                </div>
+            </div>
+                            
+                                <div class="panel panel-white post">
+                <div class="post-heading">
+                    <div class="pull-left image">
+                        <img src="http://bootdey.com/img/Content/user_1.jpg" class="img-circle avatar" alt="user profile image">
+                    </div>
+                    <div class="pull-left meta">
+                        <div class="title h5">
+                            <a href="#"><b>Ryan Haywood</b></a>
+                            made a post.
+                        </div>
+                        <h6 class="text-muted time">1 minute ago</h6>
+                    </div>
+                </div> 
+                <div class="post-description"> 
+                    <p>Bootdey is a gallery of free snippets resources templates and utilities for bootstrap css hmtl js framework. Codes for developers and web designers</p>
+                </div>
+            </div>
+                            
+                            			 <div class="input-group"> 
+                    <input class="form-control" placeholder="Add a comment" type="text">
+                    <span class="input-group-addon">
+                        <a href="#"><span class="glyphicon glyphicon-pencil"></span> </a>  
+                    </span>
+                </div>	
+        
 						</div>
 						<div class="tab-pane" id="tab_default_2">
-							<p>
-								Howdy, I'm in Tab 2.
-							</p>
-							<p>
-								Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
-							</p>
-							<p>
-								<a class="btn btn-warning" href="http://j.mp/metronictheme" target="_blank">
-									Click for more features...
-								</a>
-							</p>
+							<table id="history" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Age</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Age</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Tiger Nixon</td>
+                <td>System Architect</td>
+                <td>Edinburgh</td>
+                <td>61</td>
+                <td>$320,800</td>
+            </tr>
+            <tr>
+                <td>Cedric Kelly</td>
+                <td>Senior Javascript Developer</td>
+                <td>Edinburgh</td>
+                <td>22</td>
+                <td>$433,060</td>
+            </tr>
+            <tr>
+                <td>Sonya Frost</td>
+                <td>Software Engineer</td>
+                <td>Edinburgh</td>
+                <td>23</td>
+                <td>$103,600</td>
+            </tr>
+            <tr>
+                <td>Quinn Flynn</td>
+                <td>Support Lead</td>
+                <td>Edinburgh</td>
+                <td>22</td>
+                <td>$342,000</td>
+            </tr>
+            <tr>
+                <td>Dai Rios</td>
+                <td>Personnel Lead</td>
+                <td>Edinburgh</td>
+                <td>35</td>
+                <td>$217,500</td>
+            </tr>
+            <tr>
+                <td>Gavin Joyce</td>
+                <td>Developer</td>
+                <td>Edinburgh</td>
+                <td>42</td>
+                <td>$92,575</td>
+            </tr>
+            <tr>
+                <td>Martena Mccray</td>
+                <td>Post-Sales support</td>
+                <td>Edinburgh</td>
+                <td>46</td>
+                <td>$324,050</td>
+            </tr>
+            <tr>
+                <td>Jennifer Acosta</td>
+                <td>Junior Javascript Developer</td>
+                <td>Edinburgh</td>
+                <td>43</td>
+                <td>$75,650</td>
+            </tr>
+            <tr>
+                <td>Shad Decker</td>
+                <td>Regional Director</td>
+                <td>Edinburgh</td>
+                <td>51</td>
+                <td>$183,000</td>
+            </tr>
+        </tbody>
+                            </table>
 						</div>
 						<div class="tab-pane" id="tab_default_3">
-							<p>
-								Howdy, I'm in Tab 3.
-							</p>
-							<p>
-								Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat
-							</p>
-							<p>
-								<a class="btn btn-info" href="http://j.mp/metronictheme" target="_blank">
-									Learn more...
-								</a>
-							</p>
+<table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Order</th>
+                <th>Customer</th>
+                <th>Sail type</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Order</th>
+                <th>Customer</th>
+                <th>Sail type</th>
+                <th>Date</th>>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>151013-3</td>
+                <td>8935 Fischer</td>
+                <td>Furling genoa</td>
+                <td>13-10-15</td>
+            </tr>
+            <tr>
+                <td>160325-1</td>
+                <td>9623 Amstaf</td>
+                <td>Classic main</td>
+                <td>25-03-16</td>
+            </tr>
+        </tbody>
+                            </table>
 						</div>
 					</div>
 				</div>
@@ -180,6 +316,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
+     <script type="text/javascript" src="https://cdn.datatables.net/t/bs/jqc-1.12.0,pdfmake-0.1.18,dt-1.10.11,af-2.1.1,b-1.1.2,b-html5-1.1.2,b-print-1.1.2,fh-3.1.1/datatables.min.js"></script>    
+        <script>
+        $(document).ready(function() {
+    $("#history").DataTable();
+} );
+        </script>
+        <script>
+        $(document).ready(function() {
+    $('#example').DataTable( {
+        "paging":   false,
+        "ordering": false,
+        "info":     false
+    } );
+} );
+        </script>
 
 
     </body>
